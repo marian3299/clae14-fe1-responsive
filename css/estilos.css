@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #D1891C;
+    width: 100%;
+    padding: 2px 0px 2px 20px;
+    font-weight: 400;
+    color: #333333;
+}
+
+h1{
+    background-color: #00669F;
+    color: #FFFFFF;
+    padding: 20px;
+    font-weight: 400;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+section article {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    background-color: #F3F3F3;
+    
+
+}
+
+section article .fondo-batman {
+    background-image: url(../img/fondo-batman.png);
+   
+}
+
+section article .fondo-ww {
+    background-image: url(../img/fondo-ww.png);
+   
+}
+
+section article .fondo-superman {
+    background-image: url(../img/fondo-superman.png);
+   
+}
+
+section article .fondo-hq {
+    background-image: url(../img/fondo-hq.png);
+   
+}
+
+
+section article .contenedor {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.img-heart {
+    width: 25px;
+    margin: 15px;
+}
+
+section article h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+section article p {
+    font-size: 12px;
+    margin: 10px 20px;
+    height: 120px;
+}
+
+section article button {
+    background-color: #00669F;
+    border: none;
+    color: #F3F3F3;
+    padding: 10px 35px;
+    border-radius: 5%;
+    margin: 5px 0px 20px 0px;
+}
+
+
+
