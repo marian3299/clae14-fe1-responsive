@@ -18,12 +18,14 @@ h1{
     padding: 20px;
     font-weight: 400;
     width: 100%;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
 }
 
 section {
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 section article {
@@ -33,7 +35,9 @@ section article {
     width: 300px;
     align-items: center;
     background-color: #F3F3F3;
-    
+    border-radius: 20px 20px 0px 0px;
+    position:relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 
@@ -62,7 +66,7 @@ section article .contenedor {
     width: 300px;
     height: 200px;
     background-size: cover;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .img-heart {
@@ -70,9 +74,17 @@ section article .contenedor {
     margin: 15px;
 }
 
+section article img.profile {
+    position: absolute;
+    width: 125px;
+    border-radius: 50%;
+    top: 125px;
+}
+
 section article h3 {
     font-size: 20px;
     font-weight: 400;
+    margin-top: 65px;
 }
 
 section article p {
@@ -89,6 +101,28 @@ section article button {
     border-radius: 5%;
     margin: 5px 0px 20px 0px;
 }
+
+footer{
+    display: flex;
+    background-color: #00669F;
+    padding: 30px 0px;
+    justify-content: center;
+    position: relative;
+
+}
+
+footer p {
+    color: #FFF9F9;
+    font-weight: 400;
+
+}
+
+footer img {
+    width: 100px;
+    position: absolute;
+    right: 30px;
+}
+
 
 
 
