@@ -83,13 +83,13 @@ section article img.profile {
 }
 
 section article h3 {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     margin-top: 65px;
 }
 
 section article p {
-    font-size: 12px;
+    font-size: 0.75rem;
     margin: 10px 20px;
     height: 120px;
 }
@@ -141,7 +141,7 @@ footer img {
     }
 
     footer p {
-        font-size: 12px;
+        font-size: 0.75rem; 
     }
 
     footer img {
