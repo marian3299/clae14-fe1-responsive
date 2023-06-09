@@ -26,6 +26,7 @@ section {
     justify-content: space-around;
     margin-top: 40px;
     margin-bottom: 60px;
+    flex-wrap: wrap;
 }
 
 section article {
@@ -108,6 +109,7 @@ footer{
     padding: 30px 0px;
     justify-content: center;
     position: relative;
+    flex-wrap: wrap;
 
 }
 
@@ -123,6 +125,28 @@ footer img {
     right: 30px;
 }
 
+@media screen and (max-width:768px) {
+    section article {
+        margin-bottom: 80px;
+    }
+    
+    section {
+        margin-bottom: 0px;
+    }
+}
 
+@media screen and (max-width:480px) {
+    section article.contenedor-hq {
+        display: none;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    footer img {
+        width: 60px;
+    }
+}
 
 
